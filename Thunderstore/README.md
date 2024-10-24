@@ -1,12 +1,13 @@
 # Remove Village
 Remove Village is a new Stage 3, in which survivors will have to explore a distant village, where as if the peace itself resides, only wind and waterfall make any sound. 
 
-![Example Screenshot](https://raw.githubusercontent.com/viliger2/RoR2_AgateVillage/refs/heads/main/Thunderstore/preview.jpg)
+![Example Screenshot](https://raw.githubusercontent.com/viliger2/RoR2_AgateVillage/refs/heads/main/Thunderstore/preview1.jpg)
 ## Features
 
 * Explore a new stage 3 with custom music. Custom music can be disabled in the config.
 * Installing [Regigigas](https://thunderstore.io/package/rob_gaming/Regigigas/) and [Tyranitar](https://thunderstore.io/package/rob_gaming/Tyranitar/) is highly recommended.
 
+![Example Screenshot](https://raw.githubusercontent.com/viliger2/RoR2_AgateVillage/refs/heads/main/Thunderstore/preview2.jpg)
 ## Credits
 <details>
 
