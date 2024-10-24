@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 1
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 73640a5e771081b4aa1119a3137bbf45, type: 2}
+  creationDate:
+    ticks: 638651252596756719
+  entries:
+  - logLevel: 2
+    internalTime:
+      ticks: 638651252771264420
+    message: '[ContributorBuild(0 - ExecutePipeline)](assetlink://Assets%2fAgateVillage%2fContributorBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      [BasicBuild.StageAssetBundles](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fBasicBuild.asset)
+      No PathReference named "BuildPathAssets" found in AssetDatabase'
+    context:
+    - "Stacktrace\r\n[BasicBuild.StageAssetBundles](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fBasicBuild.asset)
+      No PathReference named \"BuildPathAssets\" found in AssetDatabase\r\n\r\n 
+      at ThunderKit.Core.Paths.PathReference.ResolvePath (System.String input, ThunderKit.Core.Pipelines.Pipeline
+      pipeline, UnityEngine.Object caller) [0x000f7] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Paths\\PathReference.cs:57](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Paths\\PathReference.cs#57)
+      \r\n\r\n  at ThunderKit.Core.Paths.PathReferenceExtensions.Resolve (System.String
+      input, ThunderKit.Core.Pipelines.Pipeline pipeline, UnityEngine.Object caller)
+      [0x00000] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Paths\\PathReferenceExtensions.cs:7](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Paths\\PathReferenceExtensions.cs#7)
+      \r\n\r\n  at ThunderKit.Pipelines.Jobs.StageAssetBundles+<>c__DisplayClass5_0.<Execute>b__14
+      (System.String path) [0x00000] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Jobs\\StageAssetBundles.cs:133](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Jobs\\StageAssetBundles.cs#133)
+      \r\n\r\n  at System.Linq.Enumerable+SelectArrayIterator`2[TSource,TResult].MoveNext
+      () [0x0003a] in <06cfd796a56e417bab3ed4200b0661b2>:0 \r\n\r\n  at ThunderKit.Pipelines.Jobs.StageAssetBundles.Execute
+      (ThunderKit.Core.Pipelines.Pipeline pipeline) [0x006a2] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Jobs\\StageAssetBundles.cs:133](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Jobs\\StageAssetBundles.cs#133)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.ExecuteJob () [0x00011] in
+      [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs:281](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs#281)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.Execute () [0x003b7] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs:240](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs#240)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.ExecutePipeline.Execute (ThunderKit.Core.Pipelines.Pipeline
+      pipeline) [0x000d5] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Jobs\\ExecutePipeline.cs:26](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Jobs\\ExecutePipeline.cs#26)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.ExecuteJob () [0x00023] in
+      [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs:281](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs#281)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.Execute () [0x003b7] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs:240](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs#240)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.ExecutePipeline.Execute (ThunderKit.Core.Pipelines.Pipeline
+      pipeline) [0x000d5] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Jobs\\ExecutePipeline.cs:26](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Jobs\\ExecutePipeline.cs#26)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.ExecuteJob () [0x00023] in
+      [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs:281](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs#281)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.Execute () [0x002e9] in [F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs:227](exceptionsource://F:\\Projects\\RoR2\\RoR2_AgateVillage\\Library\\PackageCache\\com.passivepicasso.thunderkit@9501deb9cb\\Editor\\Core\\Pipelines\\Pipeline.cs#227) "
+  - logLevel: 0
+    internalTime:
+      ticks: 638651252600319906
+    message: '[BasicBuild(1 - StageAssetBundles)](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fBasicBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Creating 2 AssetBundles'
+    context:
+    - 'agatevillageassets
+
+      [agatevillage](assetlink://Assets%2fAgateVillage%2fAssets%2fagatevillage.asset)
+
+      
+
+      [AgateVillage](assetlink://Assets%2fAgateVillage%2fAssets%2fAgateVillage.fbx)
+
+      
+
+      [AirNodeGraph](assetlink://Assets%2fAgateVillage%2fAssets%2fAirNodeGraph.asset)
+
+      
+
+      [GroundNodeGraph](assetlink://Assets%2fAgateVillage%2fAssets%2fGroundNodeGraph.asset)
+
+      
+
+      [Logs.Stages.agatevillage](assetlink://Assets%2fAgateVillage%2fAssets%2fLogs.Stages.agatevillage.asset)
+
+      
+
+      [Rock](assetlink://Assets%2fAgateVillage%2fAssets%2fRock.fbx)
+
+      
+
+      [Tree](assetlink://Assets%2fAgateVillage%2fAssets%2fTree.fbx)
+
+      
+
+      [imported_image_GX_TF_CMPR.043](assetlink://Assets%2fAgateVillage%2fAssets%2fMaterials%2fimported_image_GX_TF_CMPR.043.mat)
+
+      
+
+      [imported_image_GX_TF_CMPR.044](assetlink://Assets%2fAgateVillage%2fAssets%2fMaterials%2fimported_image_GX_TF_CMPR.044.mat)
+
+      
+
+      [imported_image_GX_TF_CMPR.046
+      1](assetlink://Assets%2fAgateVillage%2fAssets%2fMaterials%2fimported_image_GX_TF_CMPR.046+1.mat)
+
+      
+
+      [imported_image_GX_TF_CMPR.217](assetlink://Assets%2fAgateVillage%2fAssets%2fMaterials%2fimported_image_GX_TF_CMPR.217.mat)
+
+      
+
+      [imported_image_GX_TF_CMPR.290](assetlink://Assets%2fAgateVillage%2fAssets%2fMaterials%2fimported_image_GX_TF_CMPR.290.mat)
+
+      
+
+      [imported_image_GX_TF_I8](assetlink://Assets%2fAgateVillage%2fAssets%2fMaterials%2fimported_image_GX_TF_I8.mat)
+
+      
+
+      [imported_image_GX_TF_CMPR.039](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_CMPR.039.png)
+
+      
+
+      [imported_image_GX_TF_CMPR.043](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_CMPR.043.png)
+
+      
+
+      [imported_image_GX_TF_CMPR.044](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_CMPR.044.png)
+
+      
+
+      [imported_image_GX_TF_CMPR.045](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_CMPR.045.png)
+
+      
+
+      [imported_image_GX_TF_CMPR.046
+      1](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_CMPR.046+1.png)
+
+      
+
+      [imported_image_GX_TF_CMPR.217](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_CMPR.217.png)
+
+      
+
+      [imported_image_GX_TF_CMPR.218](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_CMPR.218.png)
+
+      
+
+      [imported_image_GX_TF_CMPR.290](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_CMPR.290.png)
+
+      
+
+      [imported_image_GX_TF_I8](assetlink://Assets%2fAgateVillage%2fAssets%2fTextures%2fimported_image_GX_TF_I8.png)
+
+      
+
+      
+
+'
+    - 'agatevillagescene
+
+      [agatevillage](assetlink://Assets%2fAgateVillage%2fScene%2fagatevillage.unity)
+
+      
+
+      
+
+'
+  - logLevel: 3
+    internalTime:
+      ticks: 638651252599077365
+    message: '[BasicBuild(1 - StageAssetBundles)](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fBasicBuild.asset)
+      Execute Job'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638651252597927496
+    message: '[BasicBuild(0 - StageAssemblies)](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fBasicBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638651252597927496
+    message: '[BasicBuild(0 - StageAssemblies)](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fBasicBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638651252597920035
+    message: '[BasicBuild(0 - StageAssemblies)](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fBasicBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638651252597920035
+    message: '[CompleteBuild(0 - ExecutePipeline)](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fCompleteBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638651252597920035
+    message: '[CompleteBuild(0 - ExecutePipeline)](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fCompleteBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638651252597920035
+    message: '[CompleteBuild(0 - ExecutePipeline)](assetlink://Packages%2fjace-locationsofprecipitation%2fEditor%2fPipelines%2fCompleteBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638651252597910023
+    message: '[ContributorBuild(0 - ExecutePipeline)](assetlink://Assets%2fAgateVillage%2fContributorBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638651252597900061
+    message: '[ContributorBuild(0 - ExecutePipeline)](assetlink://Assets%2fAgateVillage%2fContributorBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638651252597491374
+    message: '[ContributorBuild(0 - ExecutePipeline)](assetlink://Assets%2fAgateVillage%2fContributorBuild.asset)[AgateVillageManifest](assetlink://Assets%2fAgateVillage%2fAgateVillageManifest.asset)
+      Execute Pipeline'
+    context: []

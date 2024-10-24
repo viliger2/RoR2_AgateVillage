@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5ED79B1C-6F10-49E4-A7B5-69881FFABFAD}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{5ED79B1C-6F10-49E4-A7B5-69881FFABFAD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="bossStatus" ID="{72F61F47-1E0C-4E57-B676-C2AF6A37D101}">
+					<ChildrenList>
+						<State Name="None" ID="{80AB00E5-9A49-43B2-A54F-A846D8A4195E}"/>
+						<State Name="alive" ID="{CB6668AC-F12D-446E-8BD0-F752AC60CF79}"/>
+						<State Name="dead" ID="{32D6D431-3C8D-4BD3-B707-68C684AFB325}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_system" ID="{AEF67BCA-A2AA-4FAF-BF5D-06E627C5C0B7}">
+					<ChildrenList>
+						<State Name="None" ID="{229F3ACE-BA46-4911-A994-0FE49FF72128}"/>
+						<State Name="Bossfight" ID="{144BD9F1-529D-411D-ABDC-B22B2528C67E}"/>
+						<State Name="Gameplay" ID="{37ED6815-2690-436C-8672-195A3E2253A1}"/>
+						<State Name="Menu" ID="{55A60B32-DD36-4874-BD0B-BCFE63789087}"/>
+						<State Name="SecretLevel" ID="{A1133E45-A5A4-4685-BE9E-789131EDCA32}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Agate_gameplaySongChoice" ID="{27F4647D-7C98-4F67-A0B8-6A60B2590A23}">
+					<ChildrenList>
+						<State Name="None" ID="{D226910B-FB65-4976-A5CE-7BADA86DD98D}"/>
+						<State Name="BarrowsCeiling" ID="{E42246A6-832A-48D2-B2F9-75ED6ACC2B10}"/>
+						<State Name="Fight" ID="{ADABAF83-415C-42F2-A506-9E031F627301}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8143ACA7-2496-4C0D-A38B-7723E8BFFC51}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8143ACA7-2496-4C0D-A38B-7723E8BFFC51}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Agate_Pause_Music" ID="{52696E1B-A2A6-4135-8281-53B734C893B1}">
+					<ChildrenList>
+						<Action Name="" ID="{7E78F50B-9CCA-4352-B117-F01A686D3056}" ShortID="696310324">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Agate_Music_System" ID="{B5A01A5A-2AA5-4545-A26A-320E746C020E}" WorkUnitID="{C0E3DF22-7377-481A-AB86-40FC07923D11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Agate_Play_Music_System" ID="{D81D5C40-FCAA-4EC8-9CBC-1FF7955D51C3}">
+					<ChildrenList>
+						<Action Name="" ID="{18CFE6D3-4CED-4550-ADE9-F5B75CC70024}" ShortID="824788499">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Agate_Music_System" ID="{B5A01A5A-2AA5-4545-A26A-320E746C020E}" WorkUnitID="{C0E3DF22-7377-481A-AB86-40FC07923D11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Agete_Unpause_Music" ID="{580C54DC-D943-4625-88BD-B5BDD7E28BB3}">
+					<ChildrenList>
+						<Action Name="" ID="{AF98A6B8-3561-4BD9-A61A-48BFED28DFBD}" ShortID="337295981">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Agate_Music_System" ID="{B5A01A5A-2AA5-4545-A26A-320E746C020E}" WorkUnitID="{C0E3DF22-7377-481A-AB86-40FC07923D11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

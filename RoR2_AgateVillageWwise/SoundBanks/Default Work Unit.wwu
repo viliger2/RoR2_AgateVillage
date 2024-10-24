@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F7A1C3ED-2BDF-4896-9DE3-4A355452370D}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F7A1C3ED-2BDF-4896-9DE3-4A355452370D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="AgateVillageMusic" ID="{717A4AAB-0F88-4A29-A423-3E4EDE62FECB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Agate_Music_System" ID="{B5A01A5A-2AA5-4545-A26A-320E746C020E}" WorkUnitID="{C0E3DF22-7377-481A-AB86-40FC07923D11}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

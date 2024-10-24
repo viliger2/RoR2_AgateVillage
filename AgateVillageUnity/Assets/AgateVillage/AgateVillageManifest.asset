@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7219979531931174600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <LOP_BuildPathAssets>
+  assetBundles:
+  - assetBundleName: agatevillageassets
+    assets:
+    - {fileID: 102900000, guid: f78aae1078621dd429d59db84d0a8d3d, type: 3}
+  - assetBundleName: agatevillagescene
+    assets:
+    - {fileID: 102900000, guid: 5adab02b4a1ac42418daa5ff373ad9cb, type: 3}
+--- !u!114 &-6967145267960370908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a82fec78ebc734d9ad1346cd40b5f9, type: 3}
+  m_Name: ThunderstoreData
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <LOP_BuildPath>
+  url: lol, lmao even
+--- !u!114 &-1689538007127817463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <LOP_BuildPathPlugins>
+  definitions:
+  - {fileID: 5897886265953266890, guid: 69edf7f0355420c46b1b5f63123773d2, type: 3}
+--- !u!114 &-308562223528477069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: Viliger
+  Name: AgateVillage
+  Description: Pokemans
+  Version: 0.6.9
+  Dependencies: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: AgateVillageManifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: -308562223528477069}
+  - {fileID: -1689538007127817463}
+  - {fileID: -7219979531931174600}
+  - {fileID: -6967145267960370908}
+  identity: {fileID: -308562223528477069}
+  QuickAccess: 0

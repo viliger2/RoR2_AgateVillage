@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 495100722, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
+  m_Name: adpAgateVillageInteractables
+  m_EditorClassIdentifier: 
+  targetPool: {fileID: 11400000, guid: 3b40d9bcfba2ee047a69068c41c9a3f1, type: 2}
+  poolCategories:
+  - name: Standard
+    categoryWeight: 1
+    alwaysIncluded: []
+    includedIfConditionsMet:
+    - dccs: {fileID: 11400000, guid: 07d84dcd513dd2146bc2aa67e57ee10a, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions: []
+    - dccs: {fileID: 11400000, guid: 499b148206d16e648b8488147f2d093d, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: RoR2/DLC1/Common/DLC1.asset
+        _useDirectReference: 0
+    - dccs: {fileID: 11400000, guid: d5116a7d176685a4183ea6af18f635f9, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: RoR2/DLC2/Common/DLC2.asset
+        _useDirectReference: 0
+    includedIfNoConditionsMet: []

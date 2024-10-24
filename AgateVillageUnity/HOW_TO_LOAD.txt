@@ -1,0 +1,6 @@
+1. Create new Unity project and integrate Thunderkit into it. (or use existing, whatever). You can follow the guide here on creating one, it is probably outdated but should work for the most part. https://risk-of-thunder.github.io/R2Wiki/Mod-Creation/Thunderkit/ThunderKit%3A-Your-First-Project/
+2. Add LocationsOfPrecipitation to your Unity project via Package Manager. https://github.com/JaceDaDorito/jace-locationsofprecipitation/tree/main
+3. After everything is imported, copy contents of Assets folder into your Unity project's Assets folder. Wait for everything to import.
+4. Navigate to AgateVillage\Scene and open agatevillage. It should load.
+5. Click on Director and scroll through components, if there are no missing scripts then everything has been imported correctly.
+6. To build asset bundle find ContributorBuild in Assets\AgateVillage and click Execute.

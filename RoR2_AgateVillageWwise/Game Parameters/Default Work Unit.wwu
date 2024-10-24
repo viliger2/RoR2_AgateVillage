@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{216FA1BA-F7AA-4073-8DFB-49AC2D71BB38}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{216FA1BA-F7AA-4073-8DFB-49AC2D71BB38}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="playerHealth" ID="{938CB1A5-1452-4A43-851A-C1EE6E117FB4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="teleporterPlayerStatus" ID="{FC08F588-970C-4979-8A14-6EC55D88FC26}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Volume_Master" ID="{0FFDF3CA-E879-4661-8455-BB70473A3091}"/>
+				<GameParameter Name="Volume_MSX" ID="{8D54FAFE-AE7A-407B-88E5-B2CCFC1DF447}"/>
+				<GameParameter Name="Volume_SFX" ID="{7BAAAC23-6F0D-4BD5-90FA-150439332155}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
