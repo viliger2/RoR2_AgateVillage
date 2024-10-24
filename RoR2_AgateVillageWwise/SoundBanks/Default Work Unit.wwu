@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="AgateVillageSounds" ID="{885BF99E-FC47-4F29-AF7D-96D19E94D8A0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Master Mixer" ID="{CF6A227C-8165-416B-B693-A908A72AE112}" WorkUnitID="{5AA9AF9F-300C-43DD-8A18-C7AC300481DA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

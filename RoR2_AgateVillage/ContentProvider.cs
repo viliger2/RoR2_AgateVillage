@@ -24,6 +24,7 @@ namespace RoR2_AgateVillage
 
         internal const string MusicSoundBankFileName = "AgateVillageMusic.bnk";
         internal const string InitSoundBankFileName = "AgateVillageInit.bnk";
+        internal const string SoundsSoundBankFileName = "AgateVillageSounds.bnk";
 
         public static SceneDef AgateVillageSceneDef;
 
@@ -265,6 +266,18 @@ namespace RoR2_AgateVillage
             {
                 Log.Error(
                     $"Error loading bank : {MusicSoundBankFileName} " +
+                    $"Error code : {akResult}");
+            }
+
+            akResult = AkSoundEngine.LoadBank(SoundsSoundBankFileName, out var _);
+            if (akResult == AKRESULT.AK_Success)
+            {
+                Log.Info($"Added bank : {SoundsSoundBankFileName}");
+            }
+            else
+            {
+                Log.Error(
+                    $"Error loading bank : {SoundsSoundBankFileName} " +
                     $"Error code : {akResult}");
             }
         }

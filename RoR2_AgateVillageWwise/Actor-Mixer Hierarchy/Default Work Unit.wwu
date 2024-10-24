@@ -1,6 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5AA9AF9F-300C-43DD-8A18-C7AC300481DA}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{5AA9AF9F-300C-43DD-8A18-C7AC300481DA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5AA9AF9F-300C-43DD-8A18-C7AC300481DA}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Master Mixer" ID="{CF6A227C-8165-416B-B693-A908A72AE112}" ShortID="897581413">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18020017-A201-4EFE-A43E-EA9A35535570}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F8C81F36-273E-4836-BC38-004649E91ED3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Sfx Mixer" ID="{335EF5D0-9808-4327-A000-1F56FA3561D8}" ShortID="771775274">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18020017-A201-4EFE-A43E-EA9A35535570}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F8C81F36-273E-4836-BC38-004649E91ED3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambiance" ID="{CE45D774-618B-47C8-8B37-7E9A48F13766}" ShortID="1072033512">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MoreCompression" ID="{96A24671-D062-4924-B4C0-CA00AC5B7402}" WorkUnitID="{18020017-A201-4EFE-A43E-EA9A35535570}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F8C81F36-273E-4836-BC38-004649E91ED3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ambiance_main" ID="{545EE644-7382-4387-90AE-03BBADB1510C}">
+											<Language>SFX</Language>
+											<AudioFile>ambiance_main.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="350630841"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ambiance_main" ID="{545EE644-7382-4387-90AE-03BBADB1510C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Waterfall" ID="{70144F9D-1772-41CD-A54A-51224E38DAE0}" ShortID="57691136">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="New Attenuation" ID="{52B84856-D322-4FAC-B166-E7771F96CE60}" WorkUnitID="{7AAE6972-0E2B-4739-AD34-54E88704B91E}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="MoreCompression" ID="{96A24671-D062-4924-B4C0-CA00AC5B7402}" WorkUnitID="{18020017-A201-4EFE-A43E-EA9A35535570}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F8C81F36-273E-4836-BC38-004649E91ED3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="waterfall-24060" ID="{14253911-B956-4CE0-8AC4-C872F5C5668D}">
+											<Language>SFX</Language>
+											<AudioFile>waterfall-24060.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="128573250"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="waterfall-24060" ID="{14253911-B956-4CE0-8AC4-C872F5C5668D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{FFA5A70D-1291-47C8-9FDB-FBAB89F1463B}" ShortID="633311578">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Volume_SFX" ID="{7BAAAC23-6F0D-4BD5-90FA-150439332155}" WorkUnitID="{216FA1BA-F7AA-4073-8DFB-49AC2D71BB38}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{E7842718-5FB3-46BE-BA4B-76F0353AE635}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

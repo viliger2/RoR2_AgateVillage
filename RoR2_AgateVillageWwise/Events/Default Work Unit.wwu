@@ -42,6 +42,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Agate_Ambiance_Start" ID="{AEBDB54B-BA13-4BF1-94DD-991FECA82620}">
+					<ChildrenList>
+						<Action Name="" ID="{DF563A70-2BFD-440E-8DBD-FB85005ADC78}" ShortID="219524781">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance" ID="{CE45D774-618B-47C8-8B37-7E9A48F13766}" WorkUnitID="{5AA9AF9F-300C-43DD-8A18-C7AC300481DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Agate_Ambiance_Stop" ID="{F134F45B-5214-45BD-96BC-10431B05FEB7}">
+					<ChildrenList>
+						<Action Name="" ID="{8E7690D0-3AB8-4273-A6DE-6A1C63EF61A6}" ShortID="401957818">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance" ID="{CE45D774-618B-47C8-8B37-7E9A48F13766}" WorkUnitID="{5AA9AF9F-300C-43DD-8A18-C7AC300481DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Agate_Waterfall_Start" ID="{B6F15C8B-401C-4923-9D52-C075DF795486}">
+					<ChildrenList>
+						<Action Name="" ID="{242D1219-5A18-488A-98C3-7F2330DFBEB9}" ShortID="582230439">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waterfall" ID="{70144F9D-1772-41CD-A54A-51224E38DAE0}" WorkUnitID="{5AA9AF9F-300C-43DD-8A18-C7AC300481DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Agate_Waterfall_Stop" ID="{54153FE3-D35A-41AB-97CC-0D2FA481E089}">
+					<ChildrenList>
+						<Action Name="" ID="{18CD4963-753E-4567-A7A9-418862271368}" ShortID="1023021253">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Waterfall" ID="{70144F9D-1772-41CD-A54A-51224E38DAE0}" WorkUnitID="{5AA9AF9F-300C-43DD-8A18-C7AC300481DA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
