@@ -1,5 +1,5 @@
-# Remove Village
-Remove Village is a new Stage 3, in which survivors will have to explore a distant village, where as if the peace itself resides, only wind and waterfall make any sound. 
+# Remote Village
+Remote Village is a new Stage 3, in which survivors will have to explore a distant village, where as if the peace itself resides, only wind and waterfall make any sound. 
 
 ![Example Screenshot](https://raw.githubusercontent.com/viliger2/RoR2_AgateVillage/refs/heads/main/Thunderstore/preview1.jpg)
 ## Features
