@@ -12,13 +12,14 @@ namespace RoR2_AgateVillage
     [BepInPlugin(GUID, Name, Version)]
     [BepInDependency(R2API.DirectorAPI.PluginGUID)]
     [BepInDependency(R2API.SoundAPI.PluginGUID)]
+    [BepInDependency("JaceDaDorito.LocationsOfPrecipitation")]
     [BepInDependency("com.rob.RegigigasMod", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.rob.Tyranitar", BepInDependency.DependencyFlags.SoftDependency)]
     public class AgateVillagePlugin : BaseUnityPlugin
     {
         public const string Author = "Viliger";
         public const string Name = nameof(AgateVillagePlugin);
-        public const string Version = "1.0.1";
+        public const string Version = "1.0.2";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> UseCustomMusic;
