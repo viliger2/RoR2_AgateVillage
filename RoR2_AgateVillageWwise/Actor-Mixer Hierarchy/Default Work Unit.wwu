@@ -26,6 +26,7 @@
 								<Sound Name="Ambiance" ID="{CE45D774-618B-47C8-8B37-7E9A48F13766}" ShortID="1072033512">
 									<PropertyList>
 										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideConversion" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
@@ -57,6 +58,7 @@
 								</Sound>
 								<Sound Name="Waterfall" ID="{70144F9D-1772-41CD-A54A-51224E38DAE0}" ShortID="57691136">
 									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideConversion" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
