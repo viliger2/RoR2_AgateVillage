@@ -19,13 +19,17 @@ namespace RoR2_AgateVillage
     {
         public const string Author = "Viliger";
         public const string Name = nameof(AgateVillagePlugin);
-        public const string Version = "1.0.2";
+        public const string Version = "1.0.3";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> UseCustomMusic;
 
         private void Awake()
         {
+
+#if DEBUG
+            On.RoR2.Networking.NetworkManagerSystemSteam.OnClientConnect += (s, u, t) => { };
+#endif
             Log.Init(Logger);
 
             UseCustomMusic = Config.Bind("Custom Music", "Custom Music", true, "Does the stage use custom music.");
