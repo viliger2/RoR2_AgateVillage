@@ -1,4 +1,13 @@
 <details>
+<summary>1.0.3 </summary>
+
+* Added jump pad to small island so players are no longer forced to take fall damage in case they somehow ended up on it without ways to get out.
+* Switched ground shader from Standard to SnowTopped so decals would render.
+* Fixed Ambiance sounds not looping.
+* Fixed command chest not spawning for network clients (fixed via separate mod).
+* Added a small secret.
+</details>
+<details>
 <summary>1.0.2 </summary>
 
 * Patched a hole in terrain and blocked off potential soft lock locations.

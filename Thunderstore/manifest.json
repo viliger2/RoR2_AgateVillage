@@ -1,7 +1,7 @@
 {
     "name": "RemoteVillage",
     "author": "viliger",
-    "version_number": "1.0.2",
+    "version_number": "1.0.3",
     "website_url": "https://github.com/viliger2/RoR2_AgateVillage",
     "description": "It's quiet here, like peace itself resides here. You take a deep breath and step forward.",
     "dependencies": [
@@ -9,6 +9,7 @@
         "RiskofThunder-HookGenPatcher-1.2.3",
         "RiskofThunder-R2API_Director-2.1.2",
 		"RiskofThunder-R2API_Sound-1.0.3",
-        "JaceDaDorito-LocationsOfPrecipitation-1.1.2"
+        "JaceDaDorito-LocationsOfPrecipitation-1.1.2",
+		"viliger-RegisterCommandChest-1.0.0"
     ]
 }

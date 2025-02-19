@@ -13,6 +13,7 @@ namespace RoR2_AgateVillage
     [BepInDependency(R2API.DirectorAPI.PluginGUID)]
     [BepInDependency(R2API.SoundAPI.PluginGUID)]
     [BepInDependency("JaceDaDorito.LocationsOfPrecipitation")]
+    [BepInDependency("Viliger.RegisterCommandChest")]
     [BepInDependency("com.rob.RegigigasMod", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.rob.Tyranitar", BepInDependency.DependencyFlags.SoftDependency)]
     public class AgateVillagePlugin : BaseUnityPlugin
