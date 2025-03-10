@@ -1,4 +1,9 @@
 <details>
+<summary>1.1.0 </summary>
+
+* Remade DCCS from scratch to support SoTS phase 2 changes.
+</details>
+<details>
 <summary>1.0.3 </summary>
 
 * Added jump pad to small island so players are no longer forced to take fall damage in case they somehow ended up on it without ways to get out.

@@ -31,7 +31,7 @@ MonoBehaviour:
   dioramaPrefab: {fileID: 4913896663870918142, guid: cabdbd0bc2191494889bd61a6a208f79, type: 3}
   mainTrack: {fileID: 0}
   bossTrack: {fileID: 0}
-  environmentColor: {r: 0.3019608, g: 0.3921569, b: 0.26666668, a: 0}
+  environmentColor: {r: 0.3019608, g: 0.3921569, b: 0.26666668, a: 1}
   hasSafeStart: 0
   suppressPlayerEntry: 0
   suppressNpcEntry: 0
@@ -41,7 +41,7 @@ MonoBehaviour:
   needSkipDevotionRespawn: 0
   destinationsGroup: {fileID: 0}
   loopedDestinationsGroup: {fileID: 0}
-  shouldUpdateSceneCollectionAfterLooping: 0
+  shouldUpdateSceneCollectionAfterLooping: 1
   isLockedBeforeLooping: 0
   loopedSceneDef: {fileID: 0}
   destinations: []

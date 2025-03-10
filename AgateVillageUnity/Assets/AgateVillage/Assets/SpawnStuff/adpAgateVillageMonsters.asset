@@ -16,16 +16,22 @@ MonoBehaviour:
   poolCategories:
   - name: Standard
     categoryWeight: 0.98
-    alwaysIncluded: []
+    alwaysIncluded:
+    - dccs: {fileID: 11400000, guid: 99904fb9d3a8a3d47885db3f6f55cd42, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
     includedIfConditionsMet:
-    - dccs: {fileID: 11400000, guid: 13a010c5a5505c74ea6d673ca28ba5ee, type: 2}
+    - dccs: {fileID: 11400000, guid: bd9a2a2f6c5b6d04ebf76ac10f791251, type: 2}
       familyDccs:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
       weight: 1
       requiredExpansions: []
-    - dccs: {fileID: 11400000, guid: 2b9a893b395a77f44ad4e4636b51d529, type: 2}
+    - dccs: {fileID: 11400000, guid: f1c3f271b0510bc468eee4d0cdfff6a0, type: 2}
       familyDccs:
         _asset: {fileID: 0}
         _address: 
@@ -35,7 +41,7 @@ MonoBehaviour:
       - _asset: {fileID: 0}
         _address: RoR2/DLC1/Common/DLC1.asset
         _useDirectReference: 0
-    - dccs: {fileID: 11400000, guid: ffc2eefc0080a1b4199df65d8f8eefec, type: 2}
+    - dccs: {fileID: 11400000, guid: 1dae25541dce6da4fbd7f3a4cc23e73c, type: 2}
       familyDccs:
         _asset: {fileID: 0}
         _address: 

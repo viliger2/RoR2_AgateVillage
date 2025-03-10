@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 2099981080, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
   m_Name: addcsAgateVillageMonstersDLC1
   m_EditorClassIdentifier: 
-  targetCardCategorySelection: {fileID: 11400000, guid: 5390af2840a94a640a2ea257cea5754d, type: 2}
+  targetCardCategorySelection: {fileID: 11400000, guid: dc1462b3929208d499476ce0ce5f19d1, type: 2}
   categories:
   - name: Champions
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetleQueen.asset
+        _address: RoR2/Base/Gravekeeper/cscGravekeeper.asset
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
-      preventOverhead: 0
+      preventOverhead: 1
       minimumStageCompletions: 0
       requiredUnlockableDef:
         _asset: {fileID: 0}
@@ -54,23 +54,7 @@ MonoBehaviour:
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/Gravekeeper/cscGravekeeper.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
+      preventOverhead: 1
       minimumStageCompletions: 0
       requiredUnlockableDef:
         _asset: {fileID: 0}
@@ -83,38 +67,6 @@ MonoBehaviour:
     selectionWeight: 2
   - name: Minibosses
     cards:
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/LemurianBruiser/cscLemurianBruiser.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetleGuard.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
         _address: RoR2/Base/GreaterWisp/cscGreaterWisp.asset
@@ -131,73 +83,25 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+    - spawnCard:
+        _asset: {fileID: 0}
+        _address: ' RoR2/DLC1/Gup/cscGupBody.asset '
+        _useDirectReference: 0
+      selectionWeight: 1
+      spawnDistance: 0
+      preventOverhead: 0
+      minimumStageCompletions: 0
+      requiredUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      forbiddenUnlockableDef:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
     selectionWeight: 3
   - name: Basic Monsters
     cards:
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetle.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/Wisp/cscLesserWisp.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 1
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/Base/Vulture/cscVulture.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: RoR2/DLC1/FlyingVermin/cscFlyingVermin.asset
-        _useDirectReference: 0
-      selectionWeight: 1
-      spawnDistance: 2
-      preventOverhead: 1
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
         _address: RoR2/DLC1/Vermin/cscVermin.asset
@@ -214,17 +118,14 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-    selectionWeight: 3
-  - name: Special
-    cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Scav/cscScav.asset
+        _address: RoR2/Base/Vulture/cscVulture.asset
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 5
+      preventOverhead: 1
+      minimumStageCompletions: 0
       requiredUnlockableDef:
         _asset: {fileID: 0}
         _address: 
@@ -233,4 +134,4 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
-    selectionWeight: 1
+    selectionWeight: 3

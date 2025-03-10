@@ -199,8 +199,6 @@ namespace RoR2_AgateVillage
             bossCustomTrack.CustomStates.Add(cstate12);
 
             AgateVillageSceneDef.bossTrack = bossCustomTrack;
-            //AgateVillageSceneDef.mainTrack = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/MusicTrackDefs/muGameplayBase_09.asset").WaitForCompletion();
-            //AgateVillageSceneDef.bossTrack = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/MusicTrackDefs/muSong16.asset").WaitForCompletion();
         }
 
         private IEnumerator LoadAssetBundle(string assetBundleFullPath, IProgress<float> progress, Action<AssetBundle> onAssetBundleLoaded)
