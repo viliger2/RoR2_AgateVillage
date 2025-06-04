@@ -12,6 +12,7 @@ namespace RoR2_AgateVillage
     [BepInPlugin(GUID, Name, Version)]
     [BepInDependency(R2API.DirectorAPI.PluginGUID)]
     [BepInDependency(R2API.SoundAPI.PluginGUID)]
+    [BepInDependency(R2API.AddressablesPlugin.PluginGUID)]
     [BepInDependency("JaceDaDorito.LocationsOfPrecipitation")]
     [BepInDependency("Viliger.RegisterCommandChest")]
     [BepInDependency("com.rob.RegigigasMod", BepInDependency.DependencyFlags.SoftDependency)]
@@ -20,7 +21,7 @@ namespace RoR2_AgateVillage
     {
         public const string Author = "Viliger";
         public const string Name = nameof(AgateVillagePlugin);
-        public const string Version = "1.1.0";
+        public const string Version = "1.1.1";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> UseCustomMusic;

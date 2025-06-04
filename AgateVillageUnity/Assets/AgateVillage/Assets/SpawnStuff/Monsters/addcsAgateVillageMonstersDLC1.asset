@@ -85,7 +85,7 @@ MonoBehaviour:
         _useDirectReference: 0
     - spawnCard:
         _asset: {fileID: 0}
-        _address: ' RoR2/DLC1/Gup/cscGupBody.asset '
+        _address: RoR2/DLC1/Gup/cscGupBody.asset
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0

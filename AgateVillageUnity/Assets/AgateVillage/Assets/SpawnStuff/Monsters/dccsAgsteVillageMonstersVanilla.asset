@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: -104859921, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: dccsAgsteVillageMonstersVanilla
   m_EditorClassIdentifier: 
+  expansionsInEffect: []
   categories: []
