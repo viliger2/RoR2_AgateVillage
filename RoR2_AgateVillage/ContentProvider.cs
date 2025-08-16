@@ -1,4 +1,5 @@
 ﻿using R2API;
+using Rewired.Utils.Classes.Data;
 using RoR2;
 using RoR2.ContentManagement;
 using System;
@@ -40,7 +41,8 @@ namespace RoR2_AgateVillage
             {"stubbedcalm water/calmwater - dx11 - doublesided", "Calm Water/CalmWater - DX11 - DoubleSided.shader" },
             {"stubbedcalm water/calmwater - dx11", "Calm Water/CalmWater - DX11.shader" },
             {"stubbednature/speedtree", "RoR2/Base/Shaders/SpeedTreeCustom.shader"},
-            {"stubbeddecalicious/decaliciousdeferreddecal", "Decalicious/DecaliciousDeferredDecal.shader" }
+            {"stubbeddecalicious/decaliciousdeferreddecal", "Decalicious/DecaliciousDeferredDecal.shader" },
+            {"stubbedror2/base/shaders/hggrass", "RoR2/Base/Shaders/HGGrass.shader" }
         };
 
         public static List<Material> SwappedMaterials = new List<Material>(); //debug
@@ -118,6 +120,11 @@ namespace RoR2_AgateVillage
                 _contentPack.sceneDefs.Add(assets);
             }));
 
+            yield return LoadAllAssetsAsync(assetsAssetBundle, args.progressReceiver, (Action<GameObject[]>)((assets) =>
+            {
+                var fishingRod = assets.First(sd => sd.name == "FishingRodInteractable");
+                _contentPack.networkedObjectPrefabs.Add(new GameObject[] {fishingRod});
+            }));
             var bazaarSeerMaterial = UnityEngine.Object.Instantiate(Addressables.LoadAssetAsync<Material>("RoR2/Base/bazaar/matBazaarSeerWispgraveyard.mat").WaitForCompletion());
             bazaarSeerMaterial.mainTexture = AgateVillagePreviewSprite.texture; 
 

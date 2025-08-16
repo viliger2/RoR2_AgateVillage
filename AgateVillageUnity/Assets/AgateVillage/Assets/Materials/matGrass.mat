@@ -8,16 +8,15 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: matGrass
-  m_Shader: {fileID: 14000, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords:
+  m_Shader: {fileID: 4800000, guid: 8c48cf973d14c8a4d8e26b15053973fd, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - GEOM_TYPE_LEAF
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TreeTransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -66,7 +65,7 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cull: 0
-    - _Cutoff: 0.187
+    - _Cutoff: 0.2433456
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
@@ -76,14 +75,21 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RampInfo: 5
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
+    - _SpecularExponent: 1
     - _SpecularHighlights: 1
+    - _SpecularStrength: 0
     - _SrcBlend: 1
     - _UVSec: 0
+    - _VertexOffsetStrength: 0.7224332
     - _WindQuality: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.2392157, g: 0.27450982, b: 0.13725491, a: 1}
+    - _Color: {r: 0.41568628, g: 0.53333336, b: 0.08235294, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _Scroll: {r: 1, g: 2, b: 2, a: 0.5}
+    - _WindVector: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -3,6 +3,13 @@
     "MAP_AGATE_VILLAGE_NAME": "Remote Village",
     "MAP_AGATE_VILLAGE_SUBTITLE": "Distant Heaven",
     "MAP_AGATE_VILLAGE_BAZAAR_SEER": "<style=cWorldEvent>You dream of fresh mountain air.</style>",
-    "MAP_AGATE_VILLAGE_LORE": "Just steal a random mesh and put it in the game. It's that easy.'"
+    "MAP_AGATE_VILLAGE_LORE": "Just steal a random mesh and put it in the game. It's that easy.'",
+
+    "AGATE_VILLAGE_FISH_NAME": "Fishing Rod",
+    "AGATE_VILLAGE_FISH_INTERACT": "Fish?",
+    "AGATE_VILLAGE_FISH_REALLY_BIG": "<style=cShrine>It seems that you caught something really big!</style>",
+    "AGATE_VILLAGE_FISH_BIG": "<style=cShrine>It seems that you caught something big!</style>",
+    "AGATE_VILLAGE_FISH_ITEM": "<style=cShrine>You caught an item!</style>",
+    "AGATE_VILLAGE_FISH_NOTHING": "<style=cShrine>It seems nothing bites...</style>"
   }
 }

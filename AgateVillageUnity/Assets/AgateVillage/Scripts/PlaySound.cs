@@ -18,7 +18,7 @@ namespace RoR2_AgateVillage
         }
 
         private void OnDisable()
-        {
+        { 
             Util.PlaySound(DisableSound, gameObject);
         }
     }

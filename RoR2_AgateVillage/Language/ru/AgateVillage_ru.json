@@ -3,6 +3,13 @@
 		"MAP_AGATE_VILLAGE_NAME": "Уединенная деревня",
 		"MAP_AGATE_VILLAGE_SUBTITLE": "Удаленный рай",
 		"MAP_AGATE_VILLAGE_BAZAAR_SEER": "<style=cWorldEvent>Вы мечтаете о свежем горном воздухе.</style>",
-		"MAP_AGATE_VILLAGE_LORE": "Укради меш и засунь в юнити, это просто.'"
+		"MAP_AGATE_VILLAGE_LORE": "Укради меш и засунь в юнити, это просто.'",
+
+		"AGATE_VILLAGE_FISH_NAME": "Удочка",
+		"AGATE_VILLAGE_FISH_INTERACT": "Порыбачить?",
+		"AGATE_VILLAGE_FISH_REALLY_BIG": "<style=cShrine>Похоже на то что вы поймали что-то действительно большое!</style>",
+		"AGATE_VILLAGE_FISH_BIG": "<style=cShrine>Похоже на то что вы поймали что-то большое!</style>",
+		"AGATE_VILLAGE_FISH_ITEM": "<style=cShrine>Вы поймали предмет!</style>",
+		"AGATE_VILLAGE_FISH_NOTHING": "<style=cShrine>Похоже что ничего не клюет...</style>"
 	}
 }

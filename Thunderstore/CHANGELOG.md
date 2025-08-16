@@ -1,4 +1,12 @@
 <details>
+<summary>1.2.0 </summary>
+
+* Added fishing.
+* Replaced all trees, bushes and grass with vanilla prefabs, so they are affected by the wind.
+* Adjusted music volume curve to closer match vanilla.
+* Added small side extension to the pier.
+</details>
+<details>
 <summary>1.1.1 </summary>
 
 * Updated for 1.3.9.

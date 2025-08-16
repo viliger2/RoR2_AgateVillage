@@ -9,7 +9,10 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "RoR2.dll"
+        "RoR2.dll",
+        "Unity.Addressables.dll",
+        "Unity.ResourceManager.dll",
+        "HGCSharpUtils.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

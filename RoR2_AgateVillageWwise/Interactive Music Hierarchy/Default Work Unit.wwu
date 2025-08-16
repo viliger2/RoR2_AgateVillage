@@ -54,6 +54,11 @@
 						<MusicSwitchContainer Name="BossSongChoice" ID="{934FF410-DF7E-4A57-9EC4-5A1C67886182}" ShortID="668003941">
 							<PropertyList>
 								<Property Name="ContinuePlay" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -83,13 +88,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicPlaylistContainer Name="Fight" ID="{2885455C-1E39-4710-B594-556DAA90FCF2}" ShortID="566450297">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>14</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18020017-A201-4EFE-A43E-EA9A35535570}"/>
@@ -342,13 +340,6 @@
 									</ChildrenList>
 								</MusicPlaylistContainer>
 								<MusicPlaylistContainer Name="FightEnd" ID="{84BA34D1-3213-4ADE-AD7A-3C1D3584E6EF}" ShortID="960997458">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18020017-A201-4EFE-A43E-EA9A35535570}"/>
@@ -764,7 +755,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>14</Value>
+												<Value>8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1317,6 +1308,7 @@
 																<XPos>0</XPos>
 																<YPos>-200</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
