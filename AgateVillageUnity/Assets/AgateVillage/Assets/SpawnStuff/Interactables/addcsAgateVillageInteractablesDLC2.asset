@@ -18,7 +18,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/CommandChest/iscCommandChest.asset
+        _address: 81a57bd62977f054a9c1d0a95df98983
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -28,16 +28,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 45
   - name: Shrines
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/ShrineRestack/iscShrineRestack.asset
+        _address: ba9d25d63bbcef34a9077c08a6d6df95
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -47,16 +49,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 7
   - name: Drones
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Drones/iscBrokenFlameDrone.asset
+        _address: 592ddd0e913440844b42eff65663abda
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -66,13 +70,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Drones/iscBrokenDrone2.asset
+        _address: 47129a0298c286f4bb01754a8aaa36b0
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -82,16 +88,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 4.5
   - name: Storm Stuff
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC2/iscShrineHalcyonite.asset
+        _address: 3ae19a6504f8bbf4fa5df938ea81fb1d
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -101,13 +109,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC2/iscShrineColossusAccess.asset
+        _address: 9427ecf1e2e9c184ea39c9c30788aeab
         _useDirectReference: 0
       selectionWeight: 3
       spawnDistance: 0
@@ -117,8 +127,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 1.5

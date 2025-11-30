@@ -18,7 +18,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Titan/cscTitanGolemPlains.asset
+        _address: 72d5eb2ac7215e14cbf0e7c9841206a5
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -28,13 +28,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Vagrant/cscVagrant.asset
+        _address: 269d1b2378a798c40a10906879ffce45
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -44,13 +46,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Gravekeeper/cscGravekeeper.asset
+        _address: 72819cda222295d418b16db6439b283b
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -60,16 +64,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 2
   - name: Minibosses
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Golem/cscGolemNature.asset
+        _address: 10dbafc2b8f01ce4aacea2bc269628b5
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -79,13 +85,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/GreaterWisp/cscGreaterWisp.asset
+        _address: e5cc043fa7ee4cd4e903f0dde1561f0f
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -95,16 +103,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 3
   - name: Basic Monsters
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Jellyfish/cscJellyfish.asset
+        _address: 4b3ec516db7849f4d91c17e61f50c3b0
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -114,13 +124,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Wisp/cscLesserWisp.asset
+        _address: c0363b855d43fc04d8e82d1ef505d972
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -130,8 +142,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 3

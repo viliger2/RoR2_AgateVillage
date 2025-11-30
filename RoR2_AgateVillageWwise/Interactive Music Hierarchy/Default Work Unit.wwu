@@ -54,11 +54,6 @@
 						<MusicSwitchContainer Name="BossSongChoice" ID="{934FF410-DF7E-4A57-9EC4-5A1C67886182}" ShortID="668003941">
 							<PropertyList>
 								<Property Name="ContinuePlay" Type="bool" Value="False"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>8</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -752,13 +747,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicPlaylistContainer Name="BarrowsCelling" ID="{E4D51E11-765E-4AD0-A839-4DF9E4DA3031}" ShortID="718411060">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{18020017-A201-4EFE-A43E-EA9A35535570}"/>

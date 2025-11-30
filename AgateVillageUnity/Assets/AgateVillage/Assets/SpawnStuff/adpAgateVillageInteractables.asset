@@ -39,8 +39,20 @@ MonoBehaviour:
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
-        _address: RoR2/DLC1/Common/DLC1.asset
+        _address: d4f30c23b971a9b428e2796dc04ae099
         _useDirectReference: 0
+        _canLoadFromCatalog: 0
+    - dccs: {fileID: 11400000, guid: e4a0d8ff68806a44cab58ab6c26ea87b, type: 2}
+      familyDccs:
+        _asset: {fileID: 0}
+        _address: 
+        _useDirectReference: 0
+      weight: 1
+      requiredExpansions:
+      - _asset: {fileID: 0}
+        _address: 851f234056d389b42822523d1be6a167
+        _useDirectReference: 0
+        _canLoadFromCatalog: 0
     - dccs: {fileID: 11400000, guid: 398a114581f1ed146bedf5547edd8960, type: 2}
       familyDccs:
         _asset: {fileID: 0}
@@ -49,6 +61,7 @@ MonoBehaviour:
       weight: 1
       requiredExpansions:
       - _asset: {fileID: 0}
-        _address: RoR2/DLC2/Common/DLC2.asset
+        _address: 234e83997deed274291470be69e7662e
         _useDirectReference: 0
+        _canLoadFromCatalog: 0
     includedIfNoConditionsMet: []

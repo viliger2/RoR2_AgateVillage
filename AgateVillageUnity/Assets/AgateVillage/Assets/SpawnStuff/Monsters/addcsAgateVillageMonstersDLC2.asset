@@ -18,7 +18,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/ElectricWorm/cscElectricWorm.asset
+        _address: a81e8806db0acde469a2279c0a95c343
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 2
@@ -28,13 +28,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/RoboBallBoss/cscRoboBallBoss.asset
+        _address: b79fc0712303aa54c9d50ab51987a66e
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -44,13 +46,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/MagmaWorm/cscMagmaWorm.asset
+        _address: a076d44b4ce5cb14b849360063a38063
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 2
@@ -60,16 +64,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 2
   - name: Minibosses
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/LemurianBruiser/cscLemurianBruiser.asset
+        _address: 3f78bcc1024d47f42b6fcde3e19099e7
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -79,13 +85,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/DLC2/Scorchling/cscScorchling.asset
+        _address: c37e7843a2ab9de42843b70359c0983c
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -95,16 +103,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 3
   - name: Basic Monsters
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Lemurian/cscLemurian.asset
+        _address: 94ec3e9c9692ff84a99fd8bb1962cbb0
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -114,13 +124,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Vulture/cscVulture.asset
+        _address: 79a0217696fe62f40a8e88f039987a2c
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -130,8 +142,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 3

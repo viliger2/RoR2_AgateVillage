@@ -18,7 +18,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/CategoryChest/iscCategoryChestDamage.asset
+        _address: f12825c96b40d554ea82379b6f649dd1
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -28,13 +28,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/CategoryChest/iscCategoryChestHealing.asset
+        _address: 1f1fc4e90cb178a4190884b56630163d
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -44,13 +46,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/CategoryChest/iscCategoryChestUtility.asset
+        _address: 07119acc737417544bfb796e8f4e55ce
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -60,16 +64,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 45
   - name: Shrines
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/ShrineCombat/iscShrineCombat.asset
+        _address: f48d76e496db90b44ac25782ce35528a
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -79,16 +85,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 7
   - name: Drones
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Drones/iscBrokenDrone1.asset
+        _address: 8c0ba07e91edbbd4fa573a6702b0e49f
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -98,13 +106,15 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Drones/iscBrokenDrone2.asset
+        _address: 47129a0298c286f4bb01754a8aaa36b0
         _useDirectReference: 0
       selectionWeight: 2
       spawnDistance: 0
@@ -114,8 +124,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 4.5

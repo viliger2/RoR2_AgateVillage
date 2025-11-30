@@ -18,7 +18,7 @@ MonoBehaviour:
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/BeetleQueen/cscBeetleQueen.asset
+        _address: 56a5ee1553328b34eb5996e7f77710c9
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -28,16 +28,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 2
   - name: Minibosses
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/BeetleGuard/cscBeetleGuard.asset
+        _address: 03978ad4a8751804a80940d5cfd4038b
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -47,16 +49,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 3
   - name: Basic Monsters
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Beetle/cscBeetle.asset
+        _address: 8289d0aec7c1e7b41bd3b8c8e0a917a5
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -66,16 +70,18 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 3
   - name: Special
     cards:
     - spawnCard:
         _asset: {fileID: 0}
-        _address: RoR2/Base/Scav/cscScav.asset
+        _address: a91a75aa7ea8e954c827db66eefedd98
         _useDirectReference: 0
       selectionWeight: 1
       spawnDistance: 0
@@ -85,8 +91,10 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
       forbiddenUnlockableDef:
         _asset: {fileID: 0}
         _address: 
         _useDirectReference: 0
+        _canLoadFromCatalog: 1
     selectionWeight: 1
