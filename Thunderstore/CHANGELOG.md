@@ -1,4 +1,16 @@
 <details>
+<summary>1.2.2 </summary>
+
+* Added access nodes.
+* Restored toggleable objects (upper bridge and island in the middle).
+  * _I've decided to remove toggleable lower bridge, it makes navigation around the map way too awkward without a decent number of movement speed items (you are forced to take a lap around the stage if you don't have the ability to either jump up top outright or jump to pier extension)._
+</details>
+<details>
+<summary>1.2.1 </summary>
+
+* AC update.
+</details>
+<details>
 <summary>1.2.0 </summary>
 
 * Added fishing.
