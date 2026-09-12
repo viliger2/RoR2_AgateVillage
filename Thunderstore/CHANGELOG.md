@@ -1,6 +1,11 @@
 <details>
 <summary>1.2.2 </summary>
 
+* Fixed broken null check for Regigigas and Tyranitar is both are present but failed to load which resulted in map not working at all.
+</details>
+<details>
+<summary>1.2.2 </summary>
+
 * Added access nodes.
 * Restored toggleable objects (upper bridge and island in the middle).
   * _I've decided to remove toggleable lower bridge, it makes navigation around the map way too awkward without a decent number of movement speed items (you are forced to take a lap around the stage if you don't have the ability to either jump up top outright or jump to pier extension)._

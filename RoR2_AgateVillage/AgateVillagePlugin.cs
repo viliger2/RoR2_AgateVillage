@@ -21,7 +21,7 @@ namespace RoR2_AgateVillage
     {
         public const string Author = "Viliger";
         public const string Name = nameof(AgateVillagePlugin);
-        public const string Version = "1.2.2";
+        public const string Version = "1.2.3";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> UseCustomMusic;
@@ -45,7 +45,7 @@ namespace RoR2_AgateVillage
             if (RegigigasCompat.enabled)
             {
                 var directorCard = RegigigasCompat.GetRegigigasSpawnCard(dccsMixEnemy);
-                if (!directorCard.Equals(default(DirectorCard)))
+                if (directorCard != null)
                 {
                     var directorCardHolder = new DirectorAPI.DirectorCardHolder
                     {
@@ -59,7 +59,7 @@ namespace RoR2_AgateVillage
             if (TyranitarCompat.enabled)
             {
                 var directorCard = TyranitarCompat.GetTyranitarSpawnCard(dccsMixEnemy);
-                if (!directorCard.Equals(default(DirectorCard)))
+                if (directorCard != null)
                 {
                     var directorCardHolder = new DirectorAPI.DirectorCardHolder
                     {
