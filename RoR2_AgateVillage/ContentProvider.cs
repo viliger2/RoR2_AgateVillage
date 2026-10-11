@@ -128,8 +128,10 @@ namespace RoR2_AgateVillage
             var bazaarSeerMaterial = UnityEngine.Object.Instantiate(Addressables.LoadAssetAsync<Material>("RoR2/Base/bazaar/matBazaarSeerWispgraveyard.mat").WaitForCompletion());
             bazaarSeerMaterial.mainTexture = AgateVillagePreviewSprite.texture; 
 
-            AgateVillageSceneDef.previewTexture = AgateVillagePreviewSprite.texture; 
+            AgateVillageSceneDef.previewTexture = AgateVillagePreviewSprite.texture;
+            AgateVillageSceneDef.previewTextureReference = new AssetReferenceTexture("");
             AgateVillageSceneDef.portalMaterial = bazaarSeerMaterial;
+            AgateVillageSceneDef.portalMaterialReference = new AssetReferenceT<Material>("");
 
             if (AgateVillagePlugin.UseCustomMusic.Value)
             {
@@ -166,7 +168,7 @@ namespace RoR2_AgateVillage
             {
                 material.SetTexture("_MainTex", Addressables.LoadAssetAsync<Texture2D>("RoR2/Base/Common/VFX/ParticleMasks/texParticleDust1Mask.png").WaitForCompletion());
                 material.SetTexture("_RemapTex", Addressables.LoadAssetAsync<Texture2D>("RoR2/Base/Common/ColorRamps/texRampTwotoneEnvironment.jpg").WaitForCompletion());
-                material.SetTexture("_Cloud1Tex", Addressables.LoadAssetAsync<Texture2D>("RoR2/Base/Common/texCloudDifferenceBW1.png").WaitForCompletion());
+                material.SetTexture("_Cloud1Tex", Addressables.LoadAssetAsync<Texture2D>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_Base_Common_TiledTextures.texCloudDifferenceBW1_png).WaitForCompletion());
             }
         }
 

@@ -1,5 +1,10 @@
 <details>
-<summary>1.2.2 </summary>
+<summary>1.2.4 </summary>
+
+* Added support for HC objects.
+</details>
+<details>
+<summary>1.2.3 </summary>
 
 * Fixed broken null check for Regigigas and Tyranitar is both are present but failed to load which resulted in map not working at all.
 </details>

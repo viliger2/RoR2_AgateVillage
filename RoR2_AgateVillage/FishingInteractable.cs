@@ -124,8 +124,8 @@ namespace AgateVillage
                 if (dtChest1)
                 {
                     var rng = new Xoroshiro128Plus(Run.instance.treasureRng.nextUlong);
-                    var pickupIndex = dtChest1.GenerateDrop(rng);
-                    PickupDropletController.CreatePickupDroplet(pickupIndex, spawnPoint.position, velocityVector);
+                    var uniquePickup = dtChest1.GeneratePickup(rng);
+                    PickupDropletController.CreatePickupDroplet(uniquePickup, spawnPoint.position, velocityVector, false);
                     Chat.SendBroadcastChat(new Chat.SimpleChatMessage
                     {
                         baseToken = "AGATE_VILLAGE_FISH_ITEM"

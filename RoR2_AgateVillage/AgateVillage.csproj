@@ -11,14 +11,14 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="BepInEx.Core" Version="5.4.21" />
-		<PackageReference Include="R2API.Addressables" Version="1.1.2" />
-		<PackageReference Include="R2API.Director" Version="2.3.7" />
-		<PackageReference Include="R2API.Sound" Version="1.0.3" />
+		<PackageReference Include="R2API.Addressables" Version="*" />
+		<PackageReference Include="R2API.Director" Version="*" />
+		<PackageReference Include="R2API.Sound" Version="*" />
 		<PackageReference Include="R2API.Stages" Version="*" />
-		<PackageReference Include="UnityEngine.Modules" Version="2021.3.33" />
-		<PackageReference Include="RiskOfRain2.GameLibs" Version="1.4.0-r.0" />
-		<PackageReference Include="MMHOOK.RoR2" Version="2025.11.19" NoWarn="NU1701" />
-		<PackageReference Include="RoR2BepInExPack" Version="1.36.0" />
+		<PackageReference Include="UnityEngine.Modules" Version="2021.3.45" />
+		<PackageReference Include="RiskOfRain2.GameLibs" Version="1.5.0-r.1" />
+		<PackageReference Include="MMHOOK.RoR2" Version="2026.10.8" NoWarn="NU1701" />
+		<PackageReference Include="RoR2BepInExPack" Version="1.44.0" />
 	</ItemGroup>
 
 	<ItemGroup>

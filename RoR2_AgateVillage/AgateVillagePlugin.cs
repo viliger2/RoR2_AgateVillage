@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine.AddressableAssets;
 
+[assembly: HG.Reflection.SearchableAttribute.OptInAttribute]
 namespace RoR2_AgateVillage
 {
     [BepInPlugin(GUID, Name, Version)]
@@ -21,7 +22,7 @@ namespace RoR2_AgateVillage
     {
         public const string Author = "Viliger";
         public const string Name = nameof(AgateVillagePlugin);
-        public const string Version = "1.2.3";
+        public const string Version = "1.2.4";
         public const string GUID = Author + "." + Name;
 
         public static ConfigEntry<bool> UseCustomMusic;
@@ -87,5 +88,27 @@ namespace RoR2_AgateVillage
         {
             folders.Add(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(base.Info.Location), "Language"));
         }
+
+#if DEBUG
+        [ConCommand(commandName = "spawn_wake", flags = ConVarFlags.None, helpText = "Spawns Wake")]
+        private static void CCSpawnTitans(ConCommandArgs args)
+        {
+            if (!DLC4ProgressionController.instance)
+            {
+                return;
+            }
+
+            if (!DLC4ProgressionController.instance.wakeSpawnCard)
+            {
+                return;
+            }
+
+            DirectorSpawnRequest directorSpawnRequest = new DirectorSpawnRequest(DLC4ProgressionController.instance.wakeSpawnCard, new DirectorPlacementRule
+            {
+                placementMode = DirectorPlacementRule.PlacementMode.Random
+            }, DLC4ProgressionController.instance.rng);
+            DirectorCore.instance.TrySpawnObject(directorSpawnRequest);
+        }
+#endif
     }
 }
