@@ -1,4 +1,10 @@
 <details>
+<summary>1.2.5 </summary>
+
+  * Added three gong locations.
+  * Added support for HC interactables beyond Altar of N'kuhana.
+</details>
+<details>
 <summary>1.2.4 </summary>
 
 * Added support for HC objects.
